@@ -15,15 +15,20 @@
 
 
 
-def speak_to_grandma(phrase = "Hi Grandma")
+def speak_to_grandma
   if phrase == "Hi Grandma"
     puts "Huh?! Speak Up Sonny!"
   else phrase == "Hello Grandma!".upcase
     puts "HUH?! SPEAK UP SONNY!" 
-end 
 
-  if phrase == "I LOVE YOU GRANDMA"
-    puts == "I LOVE YOU TOO PUMPKIN!"
-
+  if phrase == "Have you ever had these yams before, Grandma?"
+    puts "HUH?! SPEAK UP SONNY!"
+  else phrase == "HAVE YOU EVER HAD THESE YAMS BEFORE?!"
+    puts "NO, NOT SINCE 1938!"
+    
+  
+  elsif phrase == "I LOVE YOU GRANDMA"
+    puts "I LOVE YOU TOO PUMPKIN!"
+  
 
 speak_to_grandma
