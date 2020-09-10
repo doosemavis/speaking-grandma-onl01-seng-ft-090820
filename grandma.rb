@@ -21,6 +21,7 @@ def speak_to_grandma
   else phrase == "Hello Grandma!".upcase
     puts "HUH?! SPEAK UP SONNY!" 
 
+def speak_to_grandma
   if phrase == "Have you ever had these yams before, Grandma?"
     puts "HUH?! SPEAK UP SONNY!"
   else phrase == "HAVE YOU EVER HAD THESE YAMS BEFORE?!"
@@ -29,6 +30,6 @@ def speak_to_grandma
   
   elsif phrase == "I LOVE YOU GRANDMA"
     puts "I LOVE YOU TOO PUMPKIN!"
-  
+end
 
 speak_to_grandma
