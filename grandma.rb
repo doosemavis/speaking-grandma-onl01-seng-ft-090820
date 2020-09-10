@@ -15,7 +15,7 @@
 
 
 
-def speak_to_grandma
+def speak_to_grandma(phrase = "Hi Grandma")
   if phrase == "Hi Grandma"
     puts "Huh?! Speak Up Sonny!"
   else phrase == "Hello Grandma!".upcase
