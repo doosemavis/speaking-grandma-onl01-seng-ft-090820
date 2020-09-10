@@ -13,5 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-def speak_to_grandma(phrase = "HUH?! SPEAK UP SONNY!")
+"Huh?! Speak Up Sonny!".upcase
+
+def speak_to_grandma
   if 
