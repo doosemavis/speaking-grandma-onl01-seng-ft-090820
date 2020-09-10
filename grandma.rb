@@ -15,10 +15,10 @@
 
 
 
-def speak_to_grandma
-  if phrase == "Hi Grandma"
+def speak_to_grandma(phrase = "HUH?! SPEAK UP SONNY!")
+  if phrase.upcase == "Hi Grandma!"
     puts "Huh?! Speak Up Sonny!"
-  elsif phrase == "Hello Grandma!".upcase
+  elsif phrase == "Hello Grandma!"
     puts "HUH?! SPEAK UP SONNY!" 
     
   elsif phrase == "Have you ever had these yams before, Grandma?"
