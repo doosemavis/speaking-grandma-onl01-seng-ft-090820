@@ -18,5 +18,6 @@ phrase = "Huh?! Speak Up Sonny!".upcase
 def speak_to_grandma
   if phrase == "Hi Grandma"
     puts "Huh?! Speak Up Sonny!"
-  elsif phrase == "Hello Grandma!".upcase
+  else phrase == "Hello Grandma!".upcase
     puts "HUH?! SPEAK UP SONNY!" 
+end
