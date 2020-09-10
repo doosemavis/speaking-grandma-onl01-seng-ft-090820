@@ -24,6 +24,5 @@ def speak_to_grandma(phrase)
     
   else phrase.upcase == "I love you grandma!"
     puts "I LOVE YOU TOO PUMPKIN!"
+  end
 end
-
-speak_to_grandma
