@@ -21,3 +21,6 @@ def speak_to_grandma
   else phrase == "Hello Grandma!".upcase
     puts "HUH?! SPEAK UP SONNY!" 
 end
+
+
+speak_to_grandma
