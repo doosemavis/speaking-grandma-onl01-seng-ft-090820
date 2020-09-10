@@ -20,7 +20,10 @@ def speak_to_grandma(phrase = "Hi Grandma")
     puts "Huh?! Speak Up Sonny!"
   else phrase == "Hello Grandma!".upcase
     puts "HUH?! SPEAK UP SONNY!" 
-end
+end 
+
+  if phrase == "I LOVE YOU GRANDMA"
+    puts == "I LOVE YOU TOO PUMPKIN!"
 
 
 speak_to_grandma
